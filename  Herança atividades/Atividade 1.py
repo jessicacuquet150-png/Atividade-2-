@@ -7,6 +7,7 @@ class Animal:
     def fazer_som(self):
         print("Este animal faz um som generico.")
 
+
 class Cachorro(Animal):
 
     def __init__(self, nome: str, raca: str):
