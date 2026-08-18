@@ -4,7 +4,6 @@ class CofreDigital:
     Demonstra o conceito de ENCAPSULAMENTO: oculta os dados sensíveis (__senha e __saldo)
     e expõe apenas métodos seguros de interação.
     """
-
     def __init__(self, titular: str, senha: str):
         # Atributo Público: Pode ser lido e alterado diretamente por fora da classe.
         self.titular = titular
@@ -57,7 +56,6 @@ class CofreDigital:
         # Execução do saque após passar em todas as verificações
         self.__saldo -= valor
         print(f"-Saque de R$ {valor:.2f} realizado com sucesso.Saldo restante: R$ {self.__saldo:.2f}")
-
 
 # EXECUÇÃO DO CÓDIGO (PASSO A PASSO)
 
